@@ -1,0 +1,14 @@
+
+Version 3.3:
+This is the first version for 32-bit Worldgroup (Worldgroup 3.2)!
+
+Version 3.4:
+This is the first native compile for The Major BBS v10!
+
+Enjoy the game and let us know if you find any bugs.
+
+Elwynor Technologies
+http://www.elwynor.com
+bbs.elwynor.com
+http://www.themajorbbs.com
+Discord: The Major BBS Restoration Project #elwynor channel

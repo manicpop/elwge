@@ -1,0 +1,19 @@
+# Equivalent to Linux Kernel style, Modified for spaces over tabs
+Language:        Cpp
+IndentWidth:     4
+TabWidth:        4
+UseTab:          Never
+BreakBeforeBraces: Linux
+AllowShortIfStatementsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: None
+ColumnLimit:     160
+IndentCaseLabels: false
+SpacesBeforeTrailingComments: 1
+SpaceBeforeParens: ControlStatements
+SortIncludes: false
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlignTrailingComments: true
+AlignAfterOpenBracket: true
+ContinuationIndentWidth: 8

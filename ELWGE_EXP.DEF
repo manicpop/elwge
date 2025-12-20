@@ -1,0 +1,6 @@
+; Filename: ELWGE_EXP.DEF
+LIBRARY ELWGE.DLL
+; *** Visual Studio 2022 EXPORT ALIASES ONLY ***
+; Galactic Empire - Copyright (c) 2025 Elwynor Technologies
+EXPORTS
+	_init__elwge=init__elwge	@1

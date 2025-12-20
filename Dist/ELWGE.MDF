@@ -1,0 +1,32 @@
+; ELWGE.MDF
+
+Module Name: Galactic Empire
+
+Developer: Elwynor Technologies
+
+
+Requires:
+Replaces:
+
+Install:
+
+Online user manual:ELWGE.DOC
+
+DLLs:ELWGE
+MSGs:ELWGEHLP ELWGE ELWGESHP
+
+
+Btrieve page size:    2048
+Btrieve files:        4
+
+Cleanup:
+
+Event-1:
+Event-2:
+Event-3:
+Event-4:
+
+Add-On Utility:
+
+
+
