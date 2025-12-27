@@ -236,8 +236,12 @@ VOID FUNC cyb_lives(WARSHP *ptr,INT usrn)
         ptr->holdcourse = gernd() % 7 + 2;
     }
 
-    cyb_check_damage(ptr, usrn);
-    cyb_check_lockon(ptr, usrn);
+    /* cyberbases should not do these */
+    if (shipclass[ptr->shpclass].max_accel > 0) {
+        cyb_check_damage(ptr, usrn);
+        cyb_check_lockon(ptr, usrn);
+    }
+
     ptr->energy = 50000L;
 
     /*DEBUG
