@@ -523,24 +523,26 @@ VOID FUNC cmd_warp(VOID)
         else
             strcpy(gechrbuf, "0");
 
-        if (warsptr->helm == 0 && valdegree(gechrbuf)) {
-            if (inputspeed > topspeed) {
-                prfmsg(WARP04, topspeed);
+        if (warsptr->helm == 0) {
+            if (valdegree(gechrbuf)) {
+                if (inputspeed > topspeed) {
+                    prfmsg(WARP04, topspeed);
+                    outprfge(ALWAYS, usrnum);
+                }
+
+                if (warsptr->where >= 10) {
+                    refresh(warsptr, usrnum);
+                    prfmsg(LEAVEORB);
+                    warsptr->where  = 0;
+                    warsptr->repair = 0;
+                }
+
+                deg = (USHORT)normal(warsptr->heading + (DOUBLE)warsptr->degrees);
+                prfmsg(ENGFIRE, deg);
                 outprfge(ALWAYS, usrnum);
+                warsptr->speed2b = 1000.0 * (FLOAT)inputspeed;
+                warsptr->head2b  = (DOUBLE)deg;
             }
-
-            if (warsptr->where >= 10) {
-                refresh(warsptr, usrnum);
-                prfmsg(LEAVEORB);
-                warsptr->where  = 0;
-                warsptr->repair = 0;
-            }
-
-            deg = (USHORT)normal(warsptr->heading + (DOUBLE)warsptr->degrees);
-            prfmsg(ENGFIRE, deg);
-            outprfge(ALWAYS, usrnum);
-            warsptr->speed2b = 1000.0 * (FLOAT)inputspeed;
-            warsptr->head2b  = (DOUBLE)deg;
         } else {
             prfmsg(HLBROKE);
             outprfge(ALWAYS, usrnum);
