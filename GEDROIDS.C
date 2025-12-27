@@ -117,6 +117,7 @@ VOID FUNC droid_init(WARSHP *ptr, INT usrn, SHORT class)
 
     ptr->speed2b    = rndm((DOUBLE)(ptr->topspeed * 1000.0));
     ptr->holdcourse = 0;
+    ptr->cybmine    = (byte)255; /* don't interfere with channel 0 */
 
     ptr->status = GESTAT_AUTO;
     ptr->tick   = CYBTICKTIME + gernd() % CYBTICKTIME;
