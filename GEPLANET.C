@@ -388,7 +388,7 @@ SHORT FUNC xgetsector(COORD *sect,SHORT wormy)
 
         /* figure out how many planets this sector has */
         if (gernd() % plodds == 0)
-            p = gernd() % maxplanets;
+            p = gernd() % (maxplanets+1);
         else
             p = 0;
 
