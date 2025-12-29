@@ -201,34 +201,35 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S01HELP {[0m[2J***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mInterceptor
-[0mMission Profile:  [1;32mShort range scouting & light attack
+S01HELP {[2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32mInterceptor
+[0;37mMission Profile:  [1;32mShort range scouting & light attack
 
-[0mLength:           [1;32m62m
-[0mWidth:            [1;32m20m
-[0mHeight:           [1;32m17m
+[0;37mLength:           [1;32m31m
+[0;37mWidth:            [1;32m10m
+[0;37mHeight:           [1;32m9m
 
-[0mShields:          [1;32mMark-1 Standard/Mark-10 maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-10 maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32m<NONE>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m5000 Su/T
-[0mMaximum Speed:    [1;32mWarp 10
-[0mScanner range:    [1;32m100,000 (10 sectors)
-[0mCargo Capacity:   [1;32m1000 Tons
+[0;37mShields:          [1;32mMark-1 standard/Mark-10 maximum
+[0;37mPhasers:          [1;32mMark-1 standard/Mark-10 maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32m<NONE>
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m5000 Su/T
+[0;37mMaximum Speed:    [1;32mWarp 10
+[0;37mScanner range:    [1;32m100,000 (10 sectors)
+[0;37mCargo Capacity:   [1;32m1000 Tons
+[0;37mCloak Capability: [1;32m<NONE>
+[0;37mPlanetary Attack: [1;32m<NONE>
 
-[0mPrice:            [1;32m65,000 C
-[0mKill Points:      [1;32m10
-[0m
+[0;37mPrice:            [1;32m65,000 C
+[0;37mKill Points:      [1;32m750
 
-} (S01TYPE#<NONE>) T   Additional Help
+[1;37m} (S01TYPE#<NONE>) T   Additional Help
 
 Ship Class 02
 
@@ -431,34 +432,35 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S02HELP {[0m[2J***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mStealth Fighter
-[0mMission Profile:  [1;32mAdvanced Fighter with maximum capability at low cost
+S02HELP {[2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32mStealth Fighter
+[0;37mMission Profile:  [1;32mAdvanced Fighter with maximum capability at low cost
 
-[0mLength:           [1;32m3750m
-[0mWidth:            [1;32m1250m
-[0mHeight:           [1;32m100m
+[0;37mLength:           [1;32m62m
+[0;37mWidth:            [1;32m20m
+[0;37mHeight:           [1;32m19m
 
-[0mShields:          [1;32mMark-1 Standard\Mark-15 (maximum)
-[0mPhasers:          [1;32mMark-1 Standard\Mark-15 (maximum)
-[0mTorpedo:          [1;32mStandard Issue
-[0mMissile:          [1;32mStandard Issue
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m5000 Su/T
-[0mMaximum Speed:    [1;32mWarp 20
-[0mScanner range:    [1;32m200,000 (20 sectors)
-[0mCargo Capacity:   [1;32m2,000 Tons
-[0mCloak Capibility: [1;32mStandard Issue
-[0mPrice:            [1;32m500,000 C
-[0mKill Points:      [1;32m25
-[0m
+[0;37mShields:          [1;32mMark-1 standard/Mark-15 maximum
+[0;37mPhasers:          [1;32mMark-1 standard/Mark-15 maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m5000 Su/T
+[0;37mMaximum Speed:    [1;32mWarp 20
+[0;37mScanner range:    [1;32m200,000 (20 sectors)
+[0;37mCargo Capacity:   [1;32m2000 Tons
+[0;37mCloak Capability: [1;32mStandard Issue
+[0;37mPlanetary Attack: [1;32mHas Fighter Combat Systems
 
-} (S02TYPE#<NONE>) T   Additional Help
+[0;37mPrice:            [1;32m500,000 C
+[0;37mKill Points:      [1;32m1500
+
+[1;37m} (S02TYPE#<NONE>) T   Additional Help
 
 Ship Class 03
 
@@ -661,36 +663,35 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S03HELP {[0m[2J***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mHeavy Freighter
-[0mMission Profile:  [1;32mPlanet colonization/Supply runs/Invasion Staging
+S03HELP {[2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32mHeavy Freighter
+[0;37mMission Profile:  [1;32mPlanet colonization/Supply runs/Invasion Staging
 
-[0mLength:           [1;32m7500m
-[0mWidth:            [1;32m2500m
-[0mHeight:           [1;32m248m
+[0;37mLength:           [1;32m1875m
+[0;37mWidth:            [1;32m625m
+[0;37mHeight:           [1;32m580m
 
-[0mShields:          [1;32mMark-1 Standard/Mark-5 maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-5 maximum
-[0mTorpedo:          [1;32mStandard Issue
-[0mMissile:          [1;32m<NONE>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32m<NONE>
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m3000 Su/T
-[0mMaximum Speed:    [1;32mWarp 8
-[0mScanner range:    [1;32m50,000 (5 sectors)
-[0mCargo Capacity:   [1;32m60,000 Tons
-
-[0mPlanetary Attack: [1;32mHas Fighter Combat Systems
+[0;37mShields:          [1;32mMark-1 standard/Mark-5 maximum
+[0;37mPhasers:          [1;32mMark-1 standard/Mark-5 maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32m<NONE>
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32m<NONE>
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m3000 Su/T
+[0;37mMaximum Speed:    [1;32mWarp 8
+[0;37mScanner range:    [1;32m50,000 (5 sectors)
+[0;37mCargo Capacity:   [1;32m60,000 Tons
+[0;37mCloak Capability: [1;32m<NONE>
+[0;37mPlanetary Attack: [1;32mHas Fighter Combat Systems
                   
-[0mPrice:            [1;32m40,000 C
-[0mKill Points:      [1;32m75
-[0m
+[0;37mPrice:            [1;32m40,000 C
+[0;37mKill Points:      [1;32m500
 
-} (S03TYPE#<NONE>) T   Additional Help
+[1;37m} (S03TYPE#<NONE>) T   Additional Help
 
 Ship Class 04
 
@@ -893,36 +894,35 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S04HELP {[0m[2J***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mDestroyer
-[0mMission Profile:  [1;32mShip to Ship Battle
+S04HELP {[2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32mDestroyer
+[0;37mMission Profile:  [1;32mShip to Ship Battle
 
-[0mLength:           [1;32m250m
-[0mWidth:            [1;32m83m
-[0mHeight:           [1;32m112m
+[0;37mLength:           [1;32m156m
+[0;37mWidth:            [1;32m52m
+[0;37mHeight:           [1;32m47m
 
-[0mShields:          [1;32mMark-1 Standard/Mark-15 maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-15 maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard issue Missile Launcher
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m5000 Su/T
-[0mMaximum Speed:    [1;32mWarp 25
-[0mScanner range:    [1;32m100,000 (10 sectors)
-[0mCargo Capacity:   [1;32m5000 Tons
+[0;37mShields:          [1;32mMark-1 standard/Mark-15 maximum
+[0;37mPhasers:          [1;32mMark-1 standard/Mark-15 maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m5000 Su/T
+[0;37mMaximum Speed:    [1;32mWarp 25
+[0;37mScanner range:    [1;32m100,000 (10 sectors)
+[0;37mCargo Capacity:   [1;32m5000 Tons
+[0;37mCloak Capability: [1;32m<NONE>
+[0;37mPlanetary Attack: [1;32mHas Fighter Combat Systems
 
-[0mPlanetary Attack: [1;32mHas Fighter Combat Systems
-                  
-[0mPrice:            [1;32m150,000 C
-[0mKill Points:      [1;32m150
-[0m
+[0;37mPrice:            [1;32m600,000 C
+[0;37mKill Points:      [1;32m2000
 
-} (S04TYPE#<NONE>) T   Additional Help
+[1;37m} (S04TYPE#<NONE>) T   Additional Help
 
 Ship Class 05
 
@@ -1125,34 +1125,35 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S05HELP {[0m[2J***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mStar Cruiser
-[0mMission Profile:  [1;32mStealth Attack/Planet Invasion
+S05HELP {[2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32mStar Cruiser
+[0;37mMission Profile:  [1;32mStealth Attack/Planet Invasion
 
-[0mLength:           [1;32m375m
-[0mWidth:            [1;32m125m
-[0mHeight:           [1;32m75m
+[0;37mLength:           [1;32m93m
+[0;37mWidth:            [1;32m31m
+[0;37mHeight:           [1;32m29m
 
-[0mShields:          [1;32mMark-1 Standard/Mark-15 maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-15 maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m10000 Su/T
-[0mMaximum Speed:    [1;32mWarp 25
-[0mScanner range:    [1;32m200,000 (20 sectors)
-[0mCargo Capacity:   [1;32m3000 Tons
-[0mStealth:          [1;32mHas Cloaking System
+[0;37mShields:          [1;32mMark-1 standard/Mark-15 maximum
+[0;37mPhasers:          [1;32mMark-1 standard/Mark-15 maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m10,000 Su/T
+[0;37mMaximum Speed:    [1;32mWarp 25
+[0;37mScanner range:    [1;32m200,000 (20 sectors)
+[0;37mCargo Capacity:   [1;32m3000 Tons
+[0;37mCloak Capability: [1;32mStandard Issue
+[0;37mPlanetary Attack: [1;32mHas Fighter Combat Systems
+           
+[0;37mPrice:            [1;32m700,000 C
+[0;37mKill Points:      [1;32m5000
 
-[0m
-lanetary Attack: [1;32mHas Fighter Combat Systems
-                  
-[0mPrice:          } (S05TYPE#<NONE>) T   Additional Help
+[1;37m} (S05TYPE#<NONE>) T   Additional Help
 
 Ship Class 06
 
@@ -1355,34 +1356,35 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S06HELP {[0m[2J***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mBattle Cruiser
-[0mMission Profile:  [1;32mStealth Attack/Planet Invasion
+S06HELP {[2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32mBattle Cruiser
+[0;37mMission Profile:  [1;32mStealth Attack/Planet Invasion
 
-[0mLength:           [1;32m750m
-[0mWidth:            [1;32m250m
-[0mHeight:           [1;32m230m
+[0;37mLength:           [1;32m187m
+[0;37mWidth:            [1;32m62m
+[0;37mHeight:           [1;32m59m
 
-[0mShields:          [1;32mMark-1 Standard/Mark-19 maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-19 maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m3000 Su/T
-[0mMaximum Speed:    [1;32mWarp 30
-[0mScanner range:    [1;32m250,000 (25 sectors)
-[0mCargo Capacity:   [1;32m6,000 Tons
-[0mStealth:          [1;32mHas Cloaking System
+[0;37mShields:          [1;32mMark-1 standard/Mark-19 maximum
+[0;37mPhasers:          [1;32mMark-1 standard/Mark-19 maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m3000 Su/T
+[0;37mMaximum Speed:    [1;32mWarp 30
+[0;37mScanner range:    [1;32m250,000 (25 sectors)
+[0;37mCargo Capacity:   [1;32m6000 Tons
+[0;37mCloak Capability: [1;32mStandard Issue
+[0;37mPlanetary Attack: [1;32mHas Fighter Combat Systems
 
-[0m
-lanetary Attack: [1;32mHas Fighter Combat Systems
-                  
-[0mPrice:         } (S06TYPE#<NONE>) T   Additional Help
+[0;37mPrice:            [1;32m800,000 C
+[0;37mKill Points:      [1;32m5000
+
+[1;37m} (S06TYPE#<NONE>) T   Additional Help
 
 Ship Class 07
 
@@ -1585,36 +1587,35 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S07HELP {[0m[2J***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mFrigate
-[0mMission Profile:  [1;32mPlanetary Attack / Heavy Battle
+S07HELP {[2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32mFrigate
+[0;37mMission Profile:  [1;32mPlanetary Attack / Heavy Battle
 
-[0mLength:           [1;32m1500m
-[0mWidth:            [1;32m500m
-[0mHeight:           [1;32m200m
+[0;37mLength:           [1;32m375m
+[0;37mWidth:            [1;32m125m
+[0;37mHeight:           [1;32m112m
 
-[0mShields:          [1;32mMark-1 Standard/Mark-12 maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-12 maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m10000 Su/T
-[0mMaximum Speed:    [1;32mWarp 30
-[0mScanner range:    [1;32m250,000 (25 sectors)
-[0mCargo Capacity:   [1;32m12,000 Tons
-
-[0mPlanetary Attack: [1;32mHas Fighter Combat Systems
+[0;37mShields:          [1;32mMark-1 standard/Mark-12 maximum
+[0;37mPhasers:          [1;32mMark-1 standard/Mark-12 maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m10000 Su/T
+[0;37mMaximum Speed:    [1;32mWarp 30
+[0;37mScanner range:    [1;32m250,000 (25 sectors)
+[0;37mCargo Capacity:   [1;32m12,000 Tons
+[0;37mCloak Capability: [1;32m<NONE>
+[0;37mPlanetary Attack: [1;32mHas Fighter Combat Systems
                   
-[0mPrice:            [1;32m1,000,000 C
-[0mKill Points:      [1;32m300
-[0m
+[0;37mPrice:            [1;32m1,000,000 C
+[0;37mKill Points:      [1;32m5000
 
-} (S07TYPE#<NONE>) T   Additional Help
+[1;37m} (S07TYPE#<NONE>) T   Additional Help
 
 Ship Class 08
 
@@ -1815,36 +1816,35 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S08HELP {[0m[2J***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mDreadnought
-[0mMission Profile:  [1;32mHeavy Battle / Planatary Attack
+S08HELP {[2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32mDreadnought
+[0;37mMission Profile:  [1;32mHeavy Battle / Planatary Attack
 
-[0mLength:           [1;32m5000m
-[0mWidth:            [1;32m1666m
-[0mHeight:           [1;32m2000m
+[0;37mLength:           [1;32m1250m
+[0;37mWidth:            [1;32m416m
+[0;37mHeight:           [1;32m400m
 
-[0mShields:          [1;32mMark-1 Standard/Mark-19 maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-19 maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m15000 Su/T
-[0mMaximum Speed:    [1;32mWarp 50
-[0mScanner range:    [1;32m500,000 (50 sectors)
-[0mCargo Capacity:   [1;32m40,000 Tons
-[0mStealth:          [1;32mStandard Issue Cloaking System
-[0mPlanetary Attack: [1;32mHas Fighter Combat Systems
+[0;37mShields:          [1;32mMark-1 standard/Mark-19 maximum
+[0;37mPhasers:          [1;32mMark-1 standard/Mark-19 maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m15,000 Su/T
+[0;37mMaximum Speed:    [1;32mWarp 50
+[0;37mScanner range:    [1;32m500,000 (50 sectors)
+[0;37mCargo Capacity:   [1;32m40,000 Tons
+[0;37mCloak Capability: [1;32mStandard Issue
+[0;37mPlanetary Attack: [1;32mHas Fighter Combat Systems
                   
-[0mPrice:            [1;32m2,000,000 C
-[0mKill Points:      [1;32m500
-[0m
+[0;37mPrice:            [1;32m2,000,000 C
+[0;37mKill Points:      [1;32m10,000
 
-} (S08TYPE#<NONE>) T   Additional Help
+[1;37m} (S08TYPE#<NONE>) T   Additional Help
 
 Ship Class 09
 
@@ -2045,34 +2045,35 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S09HELP {[0m[2J***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mFreight Barge
-[0mMission Profile:  [1;32mBulk Transport / Planet Invasion Supply
+S09HELP {[2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32mFreight Barge
+[0;37mMission Profile:  [1;32mBulk Transport / Planet Invasion Supply
 
-[0mLength:           [1;32m53750m
-[0mWidth:            [1;32m17916m
-[0mHeight:           [1;32m1230m
+[0;37mLength:           [1;32m6250m
+[0;37mWidth:            [1;32m2083m
+[0;37mHeight:           [1;32m1972m
 
-[0mShields:          [1;32mMark-1 Standard/Mark-6 maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-3 maximum
-[0mTorpedo:          [1;32m<NONE>
-[0mMissile:          [1;32m<NONE>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32m<NONE>
-[0mMine Launcher:    [1;32m<NONE>
-[0mAccel Rate:       [1;32m1000 Su/T
-[0mMaximum Speed:    [1;32mWarp 15
-[0mScanner range:    [1;32m200,000 (20 sectors)
-[0mCargo Capacity:   [1;32m200,000 Tons
-[0mPlanetary Attack: [1;32mHas Fighter Combat Systems
-[0mPrice:            [1;32m3,000,000 C
-[0mKill Points:      [1;32m200
-[0m
+[0;37mShields:          [1;32mMark-1 standard/Mark-6 maximum
+[0;37mPhasers:          [1;32mMark-1 standard/Mark-3 maximum
+[0;37mTorpedo:          [1;32m<NONE>
+[0;37mMissile:          [1;32m<NONE>
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32m<NONE>
+[0;37mMine Launcher:    [1;32m<NONE>
+[0;37mAccel Rate:       [1;32m1000 Su/T
+[0;37mMaximum Speed:    [1;32mWarp 15
+[0;37mScanner range:    [1;32m200,000 (20 sectors)
+[0;37mCargo Capacity:   [1;32m200,000 Tons
+[0;37mCloak Capability: [1;32m<NONE>
+[0;37mPlanetary Attack: [1;32mHas Fighter Combat Systems
 
-} (S09TYPE#<NONE>) T   Additional Help
+[0;37mPrice:            [1;32m3,000,000 C
+[0;37mKill Points:      [1;32m5000
+
+[1;37m} (S09TYPE#<NONE>) T   Additional Help
 
 Ship Class 10
 
@@ -2273,34 +2274,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S10HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S10HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S10TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S10TYPE#<NONE>) T   Additional Help
 
 Ship Class 11
 
@@ -2501,34 +2501,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S11HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S11HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S11TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S11TYPE#<NONE>) T   Additional Help
 
 Ship Class 12
 
@@ -2729,34 +2728,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S12HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S12HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S12TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S12TYPE#<NONE>) T   Additional Help
 
 Ship Class 13
 
@@ -2957,34 +2955,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S13HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S13HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S13TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S13TYPE#<NONE>) T   Additional Help
 
 Ship Class 14
 
@@ -3185,34 +3182,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S14HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S14HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S14TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S14TYPE#<NONE>) T   Additional Help
 
 Ship Class 15
 
@@ -3413,34 +3409,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S15HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S15HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S15TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S15TYPE#<NONE>) T   Additional Help
 
 Ship Class 16
 
@@ -3641,34 +3636,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S16HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S16HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S16TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S16TYPE#<NONE>) T   Additional Help
 
 Ship Class 17
 
@@ -3869,34 +3863,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S17HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S17HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S17TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S17TYPE#<NONE>) T   Additional Help
 
 Ship Class 18
 
@@ -4097,34 +4090,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S18HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S18HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S18TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S18TYPE#<NONE>) T   Additional Help
 
 Ship Class 19
 
@@ -4325,34 +4317,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S19HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S19HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S19TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S19TYPE#<NONE>) T   Additional Help
 
 Ship Class 20
 
@@ -4553,34 +4544,33 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S20HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
+S20HELP {2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32m<ship name here>
+[0;37mMission Profile:  [1;32m<description>
 
-} (S20TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m??m
+[0;37mWidth:            [1;32m??m
+[0;37mHeight:           [1;32m??m
+
+[0;37mShields:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m???? Su/T
+[0;37mMaximum Speed:    [1;32mWarp ?
+[0;37mScanner range:    [1;32m??,000 (?? sectors)
+[0;37mCargo Capacity:   [1;32m??? Tons
+
+[0;37mPrice:            [1;32m??,000 C
+[0;37mKill Points:      [1;32m??
+
+[1;37m} (S20TYPE#<NONE>) T   Additional Help
 
 Ship Class 21
 
@@ -4783,33 +4773,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S21HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32mCybertron Scout
-[0mMission Profile:  [1;32mLight Aggressor
-[0m                  [1;32m
-[0mLength:           [1;32m112m
-[0mWidth:            [1;32m37m
-[0mHeight:           [1;32m30m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
-
+S21HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S21TYPE#<NONE>) T   Additional Help
 
 Ship Class 22
@@ -5013,33 +4979,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S22HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32mCybertron Battle Cruiser
-[0mMission Profile:  [1;32mBattle Aggressor
-[0m                  [1;32m
-[0mLength:           [1;32m1562m
-[0mWidth:            [1;32m520m
-[0mHeight:           [1;32m300m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
-
+S22HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S22TYPE#<NONE>) T   Additional Help
 
 Ship Class 23
@@ -5243,33 +5185,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S23HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32mCybertron Star Base
-[0mMission Profile:  [1;32mBase re-supply station
-[0m                  [1;32m
-[0mLength:           [1;32mUnknown
-[0mWidth:            [1;32mUnknown
-[0mHeight:           [1;32mUnknown
-[0m                  [1;32m
-[0mShields:          [1;32mUnknown
-[0mPhasers:          [1;32mUnknown
-[0mTorpedo:          [1;32mUnknown
-[0mMissile:          [1;32mUnknown
-[0mDecoy Launcher:   [1;32mReported
-[0mJammer Launcher:  [1;32mReported
-[0mZipper Launcher:  [1;32mReported
-[0mMine Launcher:    [1;32mUnknown
-[0mAccel Rate:       [1;32mNot Measured
-[0mMaximum Speed:    [1;32mUnknown
-[0mScanner range:    [1;32mReported Superior Scanning Range
-[0mCargo Capacity:   [1;32mUnknown
-[0m                  [1;32m
-[0mPrice:            [1;32mN/A
-[0mKill Points:      [1;32m10,000
-[0m
-
+S23HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S23TYPE#<NONE>) T   Additional Help
 
 Ship Class 24
@@ -5473,33 +5391,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S24HELP {[0m***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mSarten Attack Drone
-[0mMission Profile:  [1;32mFast Attack
-
-[0mLength:           [1;32m20m
-[0mWidth:            [1;32m5m
-[0mHeight:           [1;32m5m
-
-[0mShields:          [1;32mLight Defensive
-[0mPhasers:          [1;32mArmed
-[0mTorpedo:          [1;32mNone Reported
-[0mMissile:          [1;32mNone Reported
-[0mDecoy Launcher:   [1;32mSuspected
-[0mJammer Launcher:  [1;32mSuspected
-[0mZipper Launcher:  [1;32mNone Reported
-[0mMine Launcher:    [1;32mNone Reported
-[0mAccel Rate:       [1;32mExtremely Fast
-[0mMaximum Speed:    [1;32mUnknown
-[0mScanner range:    [1;32mUnknown
-[0mCargo Capacity:   [1;32mMinimal
-
-[0mPrice:            [1;32mN/A
-[0mKill Points:      [1;32m50
-[0m
-
+S24HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S24TYPE#<NONE>) T   Additional Help
 
 Ship Class 25
@@ -5703,33 +5597,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S25HELP {[0m***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[37mShip Class:       [1;32mSatren Obliterator
-[0mMission Profile:  [1;32mHeavy Battle Aggressor
-
-[0mLength:           [1;32mHuge
-[0mWidth:            [1;32mHuge
-[0mHeight:           [1;32mHuge
-
-[0mShields:          [1;32mVery Good
-[0mPhasers:          [1;32mDeadly
-[0mTorpedo:          [1;32mNone Suspected
-[0mMissile:          [1;32mNone Suspected
-[0mDecoy Launcher:   [1;32mNone Observed
-[0mJammer Launcher:  [1;32mNone Observed
-[0mZipper Launcher:  [1;32mNone Suspected
-[0mMine Launcher:    [1;32mNone Suspected
-[0mAccel Rate:       [1;32mSlow
-[0mMaximum Speed:    [1;32mUnknown
-[0mScanner range:    [1;32mLong Range
-[0mCargo Capacity:   [1;32mLarge Cargo Bay
-
-[0mPrice:            [1;32mN/A
-[0mKill Points:      [1;32m??
-[0m
-
+S25HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S25TYPE#<NONE>) T   Additional Help
 
 Ship Class 26
@@ -5933,33 +5803,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S26HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32mCybertron ???
-[0mMission Profile:  [1;32mBattle Aggressor
-[0m                  [1;32m
-[0mLength:           [1;32m1562m
-[0mWidth:            [1;32m520m
-[0mHeight:           [1;32m300m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
-
+S26HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S26TYPE#<NONE>) T   Additional Help
 
 Ship Class 27
@@ -6163,33 +6009,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S27HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32mCybertron ???
-[0mMission Profile:  [1;32mBattle Aggressor
-[0m                  [1;32m
-[0mLength:           [1;32m1562m
-[0mWidth:            [1;32m520m
-[0mHeight:           [1;32m300m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
-
+S27HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S27TYPE#<NONE>) T   Additional Help
 
 Ship Class 28
@@ -6393,33 +6215,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S28HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32mCybertron ???
-[0mMission Profile:  [1;32mBattle Aggressor
-[0m                  [1;32m
-[0mLength:           [1;32m1562m
-[0mWidth:            [1;32m520m
-[0mHeight:           [1;32m300m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
-
+S28HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S28TYPE#<NONE>) T   Additional Help
 
 Ship Class 29
@@ -6623,33 +6421,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S29HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32mCybertron ???
-[0mMission Profile:  [1;32mBattle Aggressor
-[0m                  [1;32m
-[0mLength:           [1;32m1562m
-[0mWidth:            [1;32m520m
-[0mHeight:           [1;32m300m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
-
+S29HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S29TYPE#<NONE>) T   Additional Help
 
 Ship Class 30
@@ -6853,33 +6627,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S30HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32mCybertron ???
-[0mMission Profile:  [1;32mBattle Aggressor
-[0m                  [1;32m
-[0mLength:           [1;32m1562m
-[0mWidth:            [1;32m520m
-[0mHeight:           [1;32m300m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
-
+S30HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S30TYPE#<NONE>) T   Additional Help
 
 Ship Class 31
@@ -7083,33 +6833,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S31HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
-
+S31HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S31TYPE#<NONE>) T   Additional Help
 
 Ship Class 32
@@ -7313,33 +7039,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S32HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
-
+S32HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S32TYPE#<NONE>) T   Additional Help
 
 Ship Class 33
@@ -7543,33 +7245,9 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S33HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32m<ship name here>
-[0mMission Profile:  [1;32m<description>
-[0m                  [1;32m
-[0mLength:           [1;32m
-[0mWidth:            [1;32m
-[0mHeight:           [1;32m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-? maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-? maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m???? Su/T
-[0mMaximum Speed:    [1;32mWarp ?
-[0mScanner range:    [1;32m??,000 (?? sectors)
-[0mCargo Capacity:   [1;32m??? Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m??,000 C
-[0mKill Points:      [1;32m??
-[0m
-
+S33HELP {2J***
+[1;36mType HELP CLASS for a list of valid ship classes.
+[1;37m
 } (S33TYPE#<NONE>) T   Additional Help
 
 Ship Class 41
@@ -7771,35 +7449,35 @@ ship for additional help.
 
 Press F2 to edit this message
 
-S41HELP {***
-[36mDetailed Class Specification
-[31m-----------------------------------------------------------------------------
-[0mShip Class:       [1;32mSysopian Death Star
-[0mMission Profile:  [1;32mAnything it wants
-[0m                  [1;32m
-[0mLength:           [1;32m12500m
-[0mWidth:            [1;32m4166m
-[0mHeight:           [1;32m3500m
-[0m                  [1;32m
-[0mShields:          [1;32mMark-1 Standard/Mark-20 maximum
-[0mPhasers:          [1;32mMark-1 Standard/Mark-20 maximum
-[0mTorpedo:          [1;32mStandard Issue Torpedo Launcher
-[0mMissile:          [1;32mStandard Issue Missile Launcher>
-[0mDecoy Launcher:   [1;32mStandard Issue
-[0mJammer Launcher:  [1;32mStandard Issue
-[0mZipper Launcher:  [1;32mStandard Issue
-[0mMine Launcher:    [1;32mStandard Issue
-[0mAccel Rate:       [1;32m5000 Su/T
-[0mMaximum Speed:    [1;32mWarp 255
-[0mScanner range:    [1;32m1,000,000,000 (10000 sectors)
-[0mCargo Capacity:   [1;32m100,000,000 Tons
-[0m                  [1;32m
-[0mPrice:            [1;32m32,000,000 C
-[0mKill Points:      [1;32m1000
-[0m
+S41HELP {[2J***
+[0;36mDetailed Class Specification
+[0;31m-----------------------------------------------------------------------------
+[0;37mShip Class:       [1;32mSysopian Death Star
+[0;37mMission Profile:  [1;32mAnything it wants
 
-} (S41TYPE#<NONE>) T   Additional Help
+[0;37mLength:           [1;32m3,125,000m
+[0;37mWidth:            [1;32m1,041,666m
+[0;37mHeight:           [1;32m978,500m
 
+[0;37mShields:          [1;32mMark-1 Standard/Mark-20 maximum
+[0;37mPhasers:          [1;32mMark-1 Standard/Mark-20 maximum
+[0;37mTorpedo:          [1;32mStandard Issue
+[0;37mMissile:          [1;32mStandard Issue
+[0;37mDecoy Launcher:   [1;32mStandard Issue
+[0;37mJammer Launcher:  [1;32mStandard Issue
+[0;37mZipper Launcher:  [1;32mStandard Issue
+[0;37mMine Launcher:    [1;32mStandard Issue
+[0;37mAccel Rate:       [1;32m5000 Su/T
+[0;37mMaximum Speed:    [1;32mWarp 255
+[0;37mScanner range:    [1;32m1,000,000,000 (10000 sectors)
+[0;37mCargo Capacity:   [1;32m100,000,000 Tons
+[0;37mCloak Capability: [1;32mStandard Issue
+[0;37mPlanetary Attack: [1;32mHas Fighter Combat Systems
+
+[0;37mPrice:            [1;32m32,000,000 C
+[0;37mKill Points:      [1;32m1000
+
+[1;37m} (S41TYPE#<NONE>) T   Additional Help
 
 SXXEND {} T Place holder - do not remove
 
