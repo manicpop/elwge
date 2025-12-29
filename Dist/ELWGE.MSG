@@ -97,7 +97,7 @@ This option turns on extended trace logging generally used
 for debugging purposes. It is recommended that it remain NO
 unless instructed to change it by our support staff.
 
-If enabled output is sent to GEOUT.LOG. Note, this file can
+If enabled output is sent to ELWGEOUT.LOG. Note, this file can
 grow quite large if this option is left on.
 
 LOGFLG {Enable extended trace logging? NO} B
@@ -134,7 +134,7 @@ GEPLNT {ELWGEPLT.DAT} S 40 GE Planet Filename
 This option specifies the filename of the current active
 ship class table. Do not change this filename in the 
 middle of a contest. If you do change it you must reset
-the MBMGESHP.DAT and MBMGEUSR.DAT databases.
+the ELWGESHP.DAT and ELWGEUSR.DAT databases.
 
 GESHIPCL {ELWGESHP.MCV} S 28 GE Ship Class Message Filename
 
@@ -227,9 +227,9 @@ side to side.
 
 UNIVWRAP {Does the Galaxy wrap around? NO} B
 
-This value controls how large the GEPLANET.DAT data file
+This value controls how large the ELWGEPLT.DAT data file
 will grow to. Each time a sector is "teraformed" the 
-GEPLANET.DAT database grows by the following formula; 
+ELWGEPLT.DAT database grows by the following formula;
 space added = (number planets * 512) + 512
 
 In order to prevent your disk from filling up you can
@@ -238,7 +238,7 @@ Kbytes. When the maximum is reached no more planets will be
 created. Note: a 32,767 database will hold 65,535 planets
 and sectors. That should keep most players busy for awhile.
 
-MAXPLREC {Max size of GEPLANET.DAT in Kbytes: 32767} N 10 32767
+MAXPLREC {Max size of ELWGEPLT.DAT in Kbytes: 32767} N 10 32767
 
 This option controls the range of the Torpedo Lock-on
 function. It functions as a divisor to reduce the effective
@@ -970,103 +970,103 @@ This value specifies the Resources for this Planet.
 
 S00P9RES {Resources for planet: 0} (S00P9DEF=YES) N 0 3
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL01 {Maximum Men on a planet: 201228378} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL02 {Maximum Missiles on a planet: 39633} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL03 {Maximum Torpedos on a planet: 59833} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL04 {Maximum Ion Cannons on a planet: 250} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL05 {Maximum Flux Pods on a planet: 923} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL06 {Maximum Food on a planet: 187312837} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL07 {Maximum Fighters on a planet: 579332} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL08 {Maximum Decoys on a planet: 5399} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL09 {Maximum Troops on a planet: 201228378} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL10 {Maximum Zippers on a planet: 5233} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL11 {Maximum Jammers on a planet: 25928} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL12 {Maximum Mines on a planet: 25867} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL13 {Maximum Gold on a planet: 10000} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL14 {Maximum Spys on a planet: 5} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL15 {Reserved for expansion: 0} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL16 {Reserved for expansion: 0} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL17 {Reserved for expansion: 0} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL18 {Reserved for expansion: 0} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL19 {Reserved for expansion: 0} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL20 {Reserved for expansion: 0} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL21 {Reserved for expansion: 0} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL22 {Reserved for expansion: 0} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL23 {Reserved for expansion: 0} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL24 {Reserved for expansion: 0} N 0 2147483647
 
-The maximum a well run VG VG planet can sustain.
+The maximum an M M planet with no cash bonus can sustain.
 
 ITMPL25 {Reserved for expansion: 0} N 0 2147483647
 
@@ -1848,16 +1848,16 @@ LEVEL6 {Elwynor Technologies: Galactic Empire}
 
 
 INTRO {[1;36m
-[33m                    Galactic Empire ([31m%s[33m) [36m
+[1;33m                    Galactic Empire ([1;31m%s[1;33m) [1;36m
       (C) Copyright 1992-94  M.B. Murdock & Associates
    WG 3.2 / MBBS 10 version (C) 2021 Elwynor Technologies
 } T Galactic Empire Text Message
 
 
 MENUA {
-[36m   Galactic Empire Menu
-[31m   -----------------------------------------
-[34m   P ... Play Galactic Empire
+[1;36m   Galactic Empire Menu
+[1;31m   -----------------------------------------
+[1;34m   P ... Play Galactic Empire
    G ... General Instructions
    R ... Top Players Roster} T Galactic Empire Text Message
 
@@ -1873,20 +1873,20 @@ MENUB2 {
 MENUC {
    I ... Information on game
    ? ... To redisplay this menu
-   X ... Exit [36m
+   X ... Exit [1;37m
 
    Enter your selection :[1;32m} T Galactic Empire Text Message
 
 
 REPRMT {
 
-[34mSelect P, G, R, I, X to exit, or ? for menu : [1;32m} T Galactic Empire Text Message
+[1;34mSelect P, G, R, I, X to exit, or ? for menu : [1;32m} T Galactic Empire Text Message
 
 
 MENUD {
-[36m   Hyper space Messages
-[31m   -----------------------------------------
-[34m} T Galactic Empire Text Message
+[1;36m   Hyper space Messages
+[1;31m   -----------------------------------------
+[1;34m} T Galactic Empire Text Message
 
 
 MENUE1 {
@@ -1906,9 +1906,9 @@ MENUF2 {
 
 
 MENUG {
-   X ... Exit to Main Menu [36m
+   X ... Exit to Main Menu [1;36m
 
-   Enter your selection :[1;32m} T Galactic Empire Text Message
+   Enter your selection :[1;37m} T Galactic Empire Text Message
 
 
 MENUG1 {
@@ -1920,13 +1920,13 @@ Press N for NEXT or X to stop:} T Galactic Empire Text Message
 
 
 COINFO {Galactic Empire is brought to you by the folks at ...
-[36m
+[1;36m
 +------------------------------------+---------------------------------------+
 |       Elwynor Technologies         |     bbs.elwynor.com                   |
 |                and                 |     http://www.elwynor.com            |
 | The Major BBS Restoration Project  |     http://www.themajorbbs.com        |
 +------------------------------------+---------------------------------------+
-[34m
+[1;34m
 If you have suggestions for improvements, questions, or general comments about
 this game please connect to our demo system or post on the project forums!
 There you can also preview the latest release of GALACTIC EMPIRE and other
@@ -1954,7 +1954,7 @@ game messages. Please do not remove or move.
 FIGHTSUB {} T Galactic Empire Text Message
 
 
-EXPLAIN {[36mIt is the Standard Year 3250, 975 years since man developed
+EXPLAIN {[1;36mIt is the Standard Year 3250, 975 years since man developed
 interplanetary space navigation, and 412 years since neutron flux warp
 technology was perfected by the ship builders of Zygor. They currently lead
 the industry with the state of the art ships and weapons systems.
@@ -1975,19 +1975,19 @@ Command recommends you find and settle some planets immediately to secure a
 supply source for your ship. Or you can purchase supplies from other
 commanders with whom you have established trade agreements.
 
-Good luck and beware the dreaded Cybertrons at all cost.[0;32m
+Good luck and beware the dreaded Cybertrons at all cost.[1;34m
 } T Galactic Empire Text Message
 
 
 FORLIVE {
-[33mSorry, only "Live" users can play Galactic Empire.[37m
+[1;33mSorry, only "Live" users can play Galactic Empire.[1;37m
 For information on this exciting game select 2. For more information
 on becoming a live user contact your SYSOP.
 } T Galactic Empire Text Message
 
 
 FORPLAY {
-[33mSorry, only authorized users can play Galactic Empire.[37m
+[1;33mSorry, only authorized users can play Galactic Empire.[1;37m
 Contact your SYSOP for more information.
 } T Galactic Empire Text Message
 
@@ -2009,34 +2009,31 @@ Defend your property in GALACTIC EMPIRE[37m
 } T Galactic Empire Text Message
 
 
-EXIWAR {[35m
-Exiting Galactic Empire...[37m
+EXIWAR {[1;35m
+Exiting Galactic Empire...[1;37m
 
 } T Galactic Empire Text Message
 
 
-CANTEXT {[33m
+CANTEXT {[1;33m
 Sorry..The Galactic Codes of Engagement prevent you from abandoning
 a battle you are involved in until a cease fire of a period of time
-has passed. If you hang up the phone your ship will be destroyed![37m
-} T Galactic Empire Text Message
+has passed. If you hang up the phone your ship will be destroyed!
+[1;37m} T Galactic Empire Text Message
 
 
 EXIWAR2 {***
-[33mScanners can no longer locate The[37m %s[37m,[33m
-Sir![37m
+[1;33mScanners can no longer locate The [1;37m%s[1;33m,
+Sir![1;37m
 } T Galactic Empire Text Message
 
 
 WARHUP {***
-[36mCommander[31m %s's[36m ship just vanished!!
+[1;36mCommander[1;31m %s's[1;36m ship just vanished!!
 } T Galactic Empire Text Message
 
 
-TPRCNT {Enter warp factor (0 - 100)} T Galactic Empire Text Message
-
-
-HUH {[32mType ? for HELP[37m
+HUH {[1;32mType ? for HELP[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2053,16 +2050,16 @@ INVCMD {Sorry Sir, I don't understand the command!
 } T Galactic Empire Text Message
 
 
-YOURDEAD {[31m
+YOURDEAD {[1;31m
 ***
 WARNING! WARNING! WARNING! WARNING!
-[36mDamage control reports severe structural damage in critical systems!
+[1;36mDamage control reports severe structural damage in critical systems!
 
 Your private shuttle is waiting Sir!
 
 You escape safely and are picked up by a Galactic Command Freighter
 and transported back to their next stop, Zygor!
- [37m
+[1;37m
 <Press ENTER>
 
 } T Galactic Empire Text Message
@@ -2070,43 +2067,43 @@ and transported back to their next stop, Zygor!
 
 DIED {
 ***
-[36m[31mThe %s[36m, Commanded by[31m %s[36m has been destroyed!!!
-} T Galactic Empire Text Message
+[1;36m[1;31mThe %s[1;36m, Commanded by[1;31m %s[1;36m has been destroyed!!!
+[1;37m} T Galactic Empire Text Message
 
 
 KILLEDBY {
 ***
-[36mCommander[31m %s's[36m ship was destroyed by[31m %s[36m!!![37m
-} T Galactic Empire Text Message
+[1;36mCommander[1;31m %s's[1;36m ship was destroyed by[1;31m %s[1;36m!!!
+[1;37m} T Galactic Empire Text Message
 
 
-PHITHIM {Sensors indicate we caused[31m %s[37m damage to Commander[31m %s's[37m ship!
+PHITHIM {Sensors indicate we caused[1;31m %s[1;37m damage to Commander[1;31m %s's[1;37m ship!
 } T Galactic Empire Text Message
 
 
 PHITYOU {***
-[33mPhaser hit from Commander[31m %s's[33m ship, caused[31m %s[33m damage, Sir![37m
+[1;33mPhaser hit from Commander[1;31m %s's[1;33m ship, caused[1;31m %s[1;33m damage, Sir![1;37m
 } T Galactic Empire Text Message
 
 
-PDEFLECT {Sensors indicate our phasers were deflected by Commander[31m %s's[37m shields!
+PDEFLECT {[1;37mSensors indicate our phasers were deflected by Commander[1;31m %s's[1;37m shields!
 } T Galactic Empire Text Message
 
 
 PHITDEF {***
-[32mPhaser hit from Ship[37m %c[37m,[32m Commander[37m %s's[32m ship,
-magnitude[37m %d, [32mwas deflected by the shields, Sir![37m
-} T Galactic Empire Text Message
+[1;32mPhaser hit from Ship[1;37m %c[1;37m,[1;32m Commander[1;37m %s's[1;32m ship,
+magnitude[1;37m %d, [1;32mwas deflected by the shields, Sir!
+[1;37m} T Galactic Empire Text Message
 
 
 PHSRUP {***
-[33mPhaser banks are now at minimum fire power, Sir![37m
-} T Galactic Empire Text Message
+[1;33mPhaser banks are now at minimum fire power, Sir!
+[1;37m} T Galactic Empire Text Message
 
 
 PHSRMAX {***
-[32mPhaser banks are at full power, Sir![37m
-} T Galactic Empire Text Message
+[1;32mPhaser banks are at full power, Sir!
+[1;37m} T Galactic Empire Text Message
 
 
 PCLOKUP {We cannot do that while the cloaking device is on, Sir!
@@ -2114,17 +2111,17 @@ PCLOKUP {We cannot do that while the cloaking device is on, Sir!
 
 
 WARP {***
-[33mHelm reports WARP[31m %d[37m
-} T Galactic Empire Text Message
+[1;33mHelm reports WARP[1;31m %d
+[1;37m} T Galactic Empire Text Message
 
 
 DEADSTOP {***
-[32mHelm reports we are at a dead stop, Sir.[37m
-} T Galactic Empire Text Message
+[1;32mHelm reports we are at a dead stop, Sir.
+[1;37m} T Galactic Empire Text Message
 
 
 NOACCEL {***
-Helm reports engine shutdown at warp[31m %d[37m, Sir!
+Helm reports engine shutdown at warp[1;31m %d[1;37m, Sir!
 } T Galactic Empire Text Message
 
 
@@ -2167,7 +2164,7 @@ Commander, SLOW DOWN NOW OR RISK A WARP DRIVE CONTAINMENT BREACH!
 } T Galactic Empire Text Message
 
 WARPBRK {***
-[31mDANGER! DANGER! WARP ENGINE CONTAINMENT BREACH. NEUTRON CORE EJECTED!![37m
+[1;31mDANGER! DANGER! WARP ENGINE CONTAINMENT BREACH. NEUTRON CORE EJECTED!![1;37m
 Warp engine damaged severely!
 } T Galactic Empire Text Message
 
@@ -2181,7 +2178,7 @@ The warp drives need repair Sir! We only have impulse power left.
 
 
 SPEEDIS {***
-[36mHelm reports speed is now Warp %s, Sir![37m
+[1;36mHelm reports speed is now Warp %s, Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2190,21 +2187,17 @@ Helm reports we are at a dead stop, Sir!
 } T Galactic Empire Text Message
 
 
-NOFIREP {[31mThere is insufficient power to fire, Sir![37m
+NOFIREP {[1;31mThere is insufficient power to fire, Sir![1;37m
 } T Galactic Empire Text Message
 
 
-NOFIRES {[35mSorry Sir, we cannot fire with the shields up.[37m
-} T Galactic Empire Text Message
-
-
-PFIRED {[36mPhasers fired at[31m %d[36m percent power - focus[31m %d[37m
+PFIRED {[1;36mPhasers fired at[1;31m %d[1;36m percent power - focus[1;31m %d[1;37m
 
 } T Galactic Empire Text Message
 
 
 PHREPR {***
-[32mDamage Control reports Phasers are now functional Sir![37m
+[1;32mDamage Control reports Phasers are now functional Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2216,8 +2209,8 @@ NOROTPW {Sorry Sir, we don't have enough power to rotate
 } T Galactic Empire Text Message
 
 
-NOWTURN {[33m
-Ship is now turning to %u degrees.[37m
+NOWTURN {[1;33m
+Ship is now turning to %u degrees.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2230,17 +2223,17 @@ ENGFIRE {Helm Reports Engines Firing - Ship coming to %u degrees
 } T Galactic Empire Text Message
 
 
-SHLDCHP {[35mShields energizing, Sir![37m
+SHLDCHP {[1;35mShields energizing, Sir![1;37m
 } T Galactic Empire Text Message
 
 
 SHLDUP {***
-[32mShields are now fully charged, Sir![37m
+[1;32mShields are now fully charged, Sir![1;37m
 } T Galactic Empire Text Message
 
 
 SHLDAT {***
-[33mShields are at %d percent charge, Sir![37m
+[1;33mShields are at %d percent charge, Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2248,7 +2241,7 @@ SHIELD0 {We don't have a shield system on this ship, Sir!
 } T Galactic Empire Text Message
 
 
-SHNOPWR {[31mWe don't have enough power to raise the shields, Sir![37m
+SHNOPWR {[1;31mWe don't have enough power to raise the shields, Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2256,12 +2249,12 @@ SHNORPR {Damage Control is repairing the shields, Sir!
 } T Galactic Empire Text Message
 
 
-SHLDDN {[34mShields are now down, Sir![37m
+SHLDDN {[1;34mShields are now down, Sir![1;37m
 } T Galactic Empire Text Message
 
 
 SHDNNOP {***
-[31mShields have come down due to lack of power, Sir!!![37m
+[1;31mShields have come down due to lack of power, Sir!!![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2271,7 +2264,7 @@ The last hit damaged the shields Sir!! Damage Control notified.
 
 
 SHKNKDN {***
-[33mThe last hit knocked the shields down Sir, restoring them now.[37m
+[1;33mThe last hit knocked the shields down Sir, restoring them now.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2304,12 +2297,12 @@ CLOKDWN {The Cloaking Device is already down, Sir!
 *** CHANGED in release 3.2c.6 ***
 
 CLOKUP {***
-[35mWe are now completely invisible, Sir![37m
+[1;35mWe are now completely invisible, Sir![1;37m
 } T Galactic Empire Text Message
 
 *** CHANGED in release 3.2c.6 ***
 
-CLOKON {[35mCloaking device is now activating, Sir![37m
+CLOKON {[1;35mCloaking device is now activating, Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2317,12 +2310,12 @@ CLOKOFF {Cloaking device is now off, Sir!
 } T Galactic Empire Text Message
 
 
-CLOKDAM {[31mThe Cloaking device is damaged and not functional Sir![37m
+CLOKDAM {[1;31mThe Cloaking device is damaged and not functional Sir![1;37m
 } T Galactic Empire Text Message
 
 
 CLREPR {***
-[32mDamage Control reports that the Cloaking Device is now functional, Sir![37m
+[1;32mDamage Control reports that the Cloaking Device is now functional, Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2350,14 +2343,14 @@ Sensors indicate some background ion field displacement bearing %d, Sir!
 
 RNDSHLD {
 ***
-[31mThe shields are no longer functioning, Sir!!
-Damage Control notified![37m
+[1;31mThe shields are no longer functioning, Sir!!
+Damage Control notified![1;37m
 } T Galactic Empire Text Message
 
 
-RNDPHSR {[0;1;32m***
-[0mThe phaser systems appear to be damaged, Sir!!
-Damage Control notified!
+RNDPHSR {***
+[1;31mThe phaser systems appear to be damaged, Sir!!
+Damage Control notified![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2368,20 +2361,20 @@ Damage Control notified!
 
 
 RNDTACT {***
-[33mThe Tactical Display has been damaged Sir!!
-Damage Control notified![37m
+[1;33mThe Tactical Display has been damaged Sir!!
+Damage Control notified![1;37m
 } T Galactic Empire Text Message
 
 
 RNDNAVG {***
-[31mThe Helm Navigational systems have been damaged Sir!!
-Damage Control notified![37m
+[1;31mThe Helm Navigational systems have been damaged Sir!!
+Damage Control notified![1;37m
 } T Galactic Empire Text Message
 
 
 RNDFCNT {***
-[31mThe Fire Control Systems have been damaged Sir!!
-Damage Control notified![37m
+[1;31mThe Fire Control Systems have been damaged Sir!!
+Damage Control notified![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2406,18 +2399,18 @@ If this keeps up, I may have to update my Will, and quick!
 
 
 TAREPR {***
-[32mDamage Control reports the Tactical Display is again functioning Sir![37m
+[1;32mDamage Control reports the Tactical Display is again functioning Sir![1;37m
 } T Galactic Empire Text Message
 
 
 HLREPR {***
-[32mDamage Control reports the Helm Navigational Controls are functioning
-Sir![37m
+[1;32mDamage Control reports the Helm Navigational Controls are functioning
+Sir![1;37m
 } T Galactic Empire Text Message
 
 
-TABROKE {[33mSorry Sir, the scanners are not functioning,
-Damage control is working on it.[37m
+TABROKE {[1;33mSorry Sir, the scanners are not functioning,
+Damage control is working on it.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2432,7 +2425,7 @@ is working on it.
 
 
 FCREPR {***
-[32mDamage Control reports Fire Control Systems are now functioning Sir![37m
+[1;32mDamage Control reports Fire Control Systems are now functioning Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2442,7 +2435,7 @@ The Fire Control System won't lock on a ship in the Neutral Zone, Sir!
 
 
 HYPERIN {***
-[34mHELM reports we are entering HYPERSPACE now, Sir![37m
+[1;34mHELM reports we are entering HYPERSPACE now, Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2457,11 +2450,11 @@ HELM reports we are leaving HYPERSPACE now, Sir!
 
 
 HYPEROU2 {***
-[36mScanners detect the[31m %s[36m coming out of Hyper Space.[37m
+[1;36mScanners detect the[1;31m %s[1;36m coming out of Hyper Space.[1;37m
 } T Galactic Empire Text Message
 
 
-NOTORPS {[33mSorry Sir, we have no more torpedoes.[37m
+NOTORPS {[1;33mSorry Sir, we have no more torpedoes.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2470,12 +2463,12 @@ NOSHIP {Sorry Sir, the tactical scanners cannot locate that ship.
 
 
 TFIRE1 {
-[32mTorpedoes fired sir![37m
+[1;32mTorpedoes fired sir![1;37m
 } T Galactic Empire Text Message
 
 
 TFIRE2 {
-[31mWARNING! WARNING![37m Incoming torpedo from ship[31m %c.[37m
+[1;31mWARNING! WARNING![1;37m Incoming torpedo from ship[1;31m %c.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2497,12 +2490,12 @@ NOMISSL {Sorry Sir, we have no more hyper-missiles!
 
 
 MFIRE1 {
-[32mMissile fired sir![37m
+[1;32mMissile fired sir![1;37m
 } T Galactic Empire Text Message
 
 
 MFIRE2 {
-[31mWARNING! WARNING![37m Incoming missile from ship[31m %c.[37m
+[1;31mWARNING! WARNING![1;37m Incoming missile from ship[1;31m %c.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2515,13 +2508,13 @@ MISS01 {We don't have a missile system on this tub, Sir!
 } T Galactic Empire Text Message
 
 
-LOCK1 {[36mFire control has lock on ship %c, Sir![37m
+LOCK1 {[1;36mFire control has lock on ship %c, Sir![1;37m
 } T Galactic Empire Text Message
 
 
 LOCK2 {***
-[31m
-WARNING! WARNING![37m Ship[31m %c[37m has a fire control scanner locked on us![37m
+[1;31m
+WARNING! WARNING![1;37m Ship[1;31m %c[1;37m has a fire control scanner locked on us![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2530,8 +2523,8 @@ LOCK3 {Fire control scanners cannot get a positive lock on ship %c, Sir!
 
 
 LOCK4 {***
-[31m
-WARNING! WARNING! Ship %c is attempting to lock fire control scanners on us.[37m
+[1;31m
+WARNING! WARNING! Ship %c is attempting to lock fire control scanners on us.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2539,48 +2532,48 @@ LOCK5 {Fire control scanners cannot find ship %c, Sir!
 } T Galactic Empire Text Message
 
 
-THIT1 {***[33m
-We have taken a hit from a torpedo, shields deflected some of the blast![37m
+THIT1 {***[1;33m
+We have taken a hit from a torpedo, shields deflected some of the blast![1;37m
 } T Galactic Empire Text Message
 
 
-THIT2 {***[33m
+THIT2 {***[1;33m
 We have taken a hit from a torpedo, Sir! Damage control has been notified.
-[37m} T Galactic Empire Text Message
+[1;37m} T Galactic Empire Text Message
 
 
-MHIT1 {***[33m
+MHIT1 {***[1;33m
 We have been hit by a hyper-missile carrying a %s charge, Sir!.
-Shields deflected most of the blast.[37m
+Shields deflected most of the blast.[1;37m
 } T Galactic Empire Text Message
 
 
-MHIT2 {***[33m
-We have been hit by a hyper-missile carrying a %s charge, Sir!.[37m
+MHIT2 {***[1;33m
+We have been hit by a hyper-missile carrying a %s charge, Sir!.[1;37m
 } T Galactic Empire Text Message
 
 
-MTACC1 {***[36m
-Sensors indicate our torpedo has hit ship %c, The %s.[37m
+MTACC1 {***[1;36m
+Sensors indicate our torpedo has hit ship %c, The %s.[1;37m
 } T Galactic Empire Text Message
 
 
-MTACC2 {***[36m
-Sensors indicate our hyper-missile has hit ship %c, The %s.[37m
+MTACC2 {***[1;36m
+Sensors indicate our hyper-missile has hit ship %c, The %s.[1;37m
 } T Galactic Empire Text Message
 
 
 TORP1 {***
 
 
-[31mRED ALERT![37m Tracking incoming torpedo.[37m
+[1;31mRED ALERT![1;37m Tracking incoming torpedo.[1;37m
 } T Galactic Empire Text Message
 
 
 MISSL1 {***
 
 
-[31mRED ALERT![37m Sensors tracking incoming missile![37m
+[1;31mRED ALERT![1;37m Sensors tracking incoming missile![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2589,20 +2582,8 @@ The missile tracking us has lost lockon and self destructed Sir!
 } T Galactic Empire Text Message
 
 
-NOSCANS {Sorry Sir! Sector scans are impossible in Hyperspace.
-} T Galactic Empire Text Message
-
-
-NOSCANH {Sorry Sir! The Hyper Scanners only work when we are in Hyperspace.
-} T Galactic Empire Text Message
-
-
-NOSCANL {Sorry Sir! The Long Range Scanners only work when we are in Hyperspace.
-} T Galactic Empire Text Message
-
-
-HYSHDN {***[35m
-Shields shut down, Sir.[37m
+HYSHDN {***[1;35m
+Shields shut down, Sir.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2611,66 +2592,53 @@ Cloaking off, Sir.
 } T Galactic Empire Text Message
 
 
-SCAN1 {***[33m
-Sir! We are being scanned by Ship %c, The[37m %s.
+SCAN1 {***[1;33m
+Sir! We are being scanned by Ship %c, The[1;37m %s.
 } T Galactic Empire Text Message
 
 
-SCAN2 {***[33m
+SCAN2 {***[1;33m
 Sir! We are being scanned by an unknown source beyond our range bearing %d.
 } T Galactic Empire Text Message
 
 
-SCAN3 {***[33m
+SCAN3 {***[1;33m
 Sir! We are being scanned by an unknown source bearing %d.
 } T Galactic Empire Text Message
 
 
-ENTWAR {***[36m
-A %s The %s just appeared in this star system![37m
+ENTWAR {***[1;36m
+A %s The %s just appeared in this star system![1;37m
 } T Galactic Empire Text Message
 
 
-FIRSTIME {[32m
+FIRSTIME {[1;32m
 Since you are just an Ensign and still wet behind the ears we are going to
 assign you to this lovely ship for your command. Take care of
-her well.[37m
+her well.[1;37m
 } T Galactic Empire Text Message
 
 
-ENTSHP {[35m
-You are being transported to your waiting ship, Commander %s[37m
+ENTSHP {[1;35m
+You are being transported to your waiting ship, Commander %s[1;37m
 } T Galactic Empire Text Message
 
 
-NEWSHP1 {
-WHAT!!!! You lost your last ship! Giving you another ship is against
-my better judgment. But since you insist....
-} T Galactic Empire Text Message
-
-
-NEWSHP2 {[33m
-I am very sorry, but the Galactic Monetary Reserve Bank has marked you
-a credit risk due to your outstanding debt, and has reduced the cash
-advance you are permitted.  [37m
-} T Galactic Empire Text Message
-
-
-WELBACK {[36m
+WELBACK {[1;36m
 Welcome back Commander %s, the con is yours...Type ? if you need assistance.
-[37m
+[1;37m
 } T Galactic Empire Text Message
 
 
-WELCOM {[36m
+WELCOM {[1;36m
 Welcome aboard Commander %s, the con is yours. Type ? if you need assistance.
-[37m
+[1;37m
 } T Galactic Empire Text Message
 
 
-ANNOUN {***[33m
+ANNOUN {***[1;33m
 Hyperspace Transmission: The %s, The %s has been
-detected cruising the galaxy. <end trans>[37m
+detected cruising the galaxy. <end trans>[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2711,49 +2679,38 @@ MISDEST {The missile locked on to the decoy Sir! It has exploded destroying both
 } T Galactic Empire Text Message
 
 
-NOFLUX {[33mWe are out of Flux Pods Sir!, we will have to "limp" to a base on
-minimal power only![37m
+NOFLUX {[1;33mWe are out of Flux Pods Sir!, we will have to "limp" to a base on
+minimal power only![1;37m
 } T Galactic Empire Text Message
 
 
-LASTFLUX {[33mThat was our last Flux Pod Sir!. I suggest we find a base soon.[37m
+LASTFLUX {[1;33mThat was our last Flux Pod Sir!. I suggest we find a base soon.[1;37m
 } T Galactic Empire Text Message
 
 
-FLUXLOAD {[32m***
-Flux Pod loaded sir, Neutron Flux levels back to normal.[37m
+FLUXLOAD {[1;32m***
+Flux Pod loaded sir, Neutron Flux levels back to normal.[1;37m
 } T Galactic Empire Text Message
 
 
-LOWFOOD {***
-The ships Quartermaster reports our food reserves are getting low, Sir!
-} T Galactic Empire Text Message
-
-
-OUTFOOD {***
-The galley reports we are out of food Sir! The men are fighting over
-what little supplies are left. We must replenish our supplies soon!
-} T Galactic Empire Text Message
-
-
-RADSET1 {Communications confirms that com channel[32m %c[37m is set to 
+RADSET1 {Communications confirms that com channel[1;32m %c[1;37m is set to
 the general hailing frequency.
 } T Galactic Empire Text Message
 
 
-RADSET2 {Communications confirms that com channel[32m %c[37m is set to
-frequency[32m %u.[37m
+RADSET2 {Communications confirms that com channel[1;32m %c[1;37m is set to
+frequency[1;32m %u.[1;37m
 } T Galactic Empire Text Message
 
 
-RADSET3 {Communications confirms that com channel[32m %c[37m is set to hyperspace
-packet code[32m %u[37m.
+RADSET3 {Communications confirms that com channel[1;32m %c[1;37m is set to hyperspace
+packet code[1;32m %u[1;37m.
 } T Galactic Empire Text Message
 
 
 MSGSNT1 {***
-[36mHailing message from The %s (ch:%c)
-[31m< %s >[37m
+[1;36mHailing message from The %s (ch:%c)
+[1;31m< %s >[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2761,32 +2718,32 @@ MSGSNT2 {Message sent on all hailing channels, Sir!
 } T Galactic Empire Text Message
 
 
-MSGSNT3 {***[36m
+MSGSNT3 {***[1;36m
 Message from The %s (ch:%c)
-[31m< %s >[37m
+[1;31m< %s >[1;37m
 } T Galactic Empire Text Message
 
 
-MSGSNT4 {Message sent to all ships in this star system on com freq[32m %u[37m,
+MSGSNT4 {Message sent to all ships in this star system on com freq[1;32m %u[1;37m,
 Sir!
 } T Galactic Empire Text Message
 
 
-MSGSNT5 {***[36m
+MSGSNT5 {***[1;36m
 Hyperspace message from The %s (ch:%c)
-[31m< %s >[37m
+[1;31m< %s >[1;37m
 } T Galactic Empire Text Message
 
 
-MSGSNT6 {Hyperspace message encoded[32m %u[37m and sent Sir!
+MSGSNT6 {Hyperspace message encoded[1;32m %u[1;37m and sent Sir!
 } T Galactic Empire Text Message
 
 
-BADCOM {[33mPlease specify com channel A, B, or C.[37m
+BADCOM {[1;33mPlease specify com channel A, B, or C.[1;37m
 } T Galactic Empire Text Message
 
 
-DASHES {[36m--------------------------------------[37m
+DASHES {[1;36m--------------------------------------[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2811,46 +2768,46 @@ ORBIT4 {We cannot obtain an orbit from hyperspace Sir!
 
 
 GRAVITY1 {***
-[32m
-In gravity pull of planet %d, Helm compensating, Sir![37m
+[1;32m
+In gravity pull of planet %d, Helm compensating, Sir![1;37m
 } T Galactic Empire Text Message
 
 
 GRAVITY2 {***
 
 
-[31mWARNING![33m Gravity pull increasing, we are dangerously close to the
-escape horizon of planet %d, Sir!![37m
+[1;31mWARNING![1;33m Gravity pull increasing, we are dangerously close to the
+escape horizon of planet %d, Sir!![1;37m
 } T Galactic Empire Text Message
 
 
 GRAVITY3 {***
 
-[31m
+[1;31m
 WARNING! WARNING! WARNING!
-We are being pulled into Planet %d...[37m
+We are being pulled into Planet %d...[1;37m
 } T Galactic Empire Text Message
 
 
 GRAVWRM1 {***
-[32m
-Within gravity pull of Wormhole %d, prepare for impact Sir![37m
+[1;32m
+Within gravity pull of Wormhole %d, prepare for impact Sir![1;37m
 } T Galactic Empire Text Message
 
 
 GRAVWRM2 {***
 
 
-[31mWARNING![33m Gravity pull high, we are dangerously close to the
-escape horizon of Wormhole %d, Sir!![37m
+[1;31mWARNING![1;33m Gravity pull high, we are dangerously close to the
+escape horizon of Wormhole %d, Sir!![1;37m
 } T Galactic Empire Text Message
 
 
 GRAVWRM3 {***
 
-[31m
+[1;31m
 WARNING! WARNING! WARNING!
-We are being pulled into Wormhole %d...[37m
+We are being pulled into Wormhole %d...[1;37m
 } T Galactic Empire Text Message
 
 
@@ -2858,7 +2815,7 @@ IMPULSE1 {Sorry Sir! Impulse drives would be useless in Hyperspace!
 } T Galactic Empire Text Message
 
 
-LEAVEORB {[34mLeaving orbit Sir![37m
+LEAVEORB {[1;34mLeaving orbit Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -2882,7 +2839,7 @@ TRANSFR4 {Sorry Sir! We don't own this planet.
 } T Galactic Empire Text Message
 
 
-TRANSFR5 {[33m%s %s[37m have been transferred to the planet Sir!
+TRANSFR5 {[1;33m%s %s[1;37m have been transferred to the planet Sir!
 } T Galactic Empire Text Message
 
 
@@ -2902,7 +2859,7 @@ TRANSUP4 {Sorry Sir! We don't own this planet.
 } T Galactic Empire Text Message
 
 
-TRANSUP5 {[33m%s %s[37m have been transferred from the planet Sir!
+TRANSUP5 {[1;33m%s %s[1;37m have been transferred from the planet Sir!
 } T Galactic Empire Text Message
 
 
@@ -2943,8 +2900,8 @@ ADMIN4 {Sorry Sir! We have already claimed the maximum planets permited by law.
 } T Galactic Empire Text Message
 
 
-ADMENU1 {[32m
-Do you wish to settle this planet, Sir! (y/n)?[37m---} T Galactic Empire Text Message
+ADMENU1 {[1;32m
+Do you wish to settle this planet, Sir! (y/n)?[1;37m---} T Galactic Empire Text Message
 
 
 ADMENU1A {
@@ -2952,7 +2909,7 @@ The Protocol Officer requests an appropriate name for the
 planet Sir, (20 characters max) ---} T Galactic Empire Text Message
 
 
-ADMENU1B {[36m
+ADMENU1B {[1;36m
 
 We hereby declare planet %d to be named %s and added to the empire
 of %s the Great, Commander of The %s.} T Galactic Empire Text Message
@@ -2960,17 +2917,17 @@ of %s the Great, Commander of The %s.} T Galactic Empire Text Message
 
 ADMENU2 {
 
-[31m  Planet Administration Menu
-[37m-----------------------------------
-[36m  1 - Get accounting report
-[33m  2 - Collect taxes ($)
-[32m  3 - Alter work assignments and
+[1;31m  Planet Administration Menu
+[1;37m-----------------------------------
+[1;36m  1 - Get accounting report
+[1;33m  2 - Collect taxes ($)
+[1;32m  3 - Alter work assignments and
       adjust trade policy/pricing
-[35m  4 - Rename planet
-[37m  5 - Adjust Tax Rate
-[31m  6 - Set Trade Password
-[33m  7 - Set Beacon Message
-[37m  x - Exit to command mode
+[1;35m  4 - Rename planet
+[1;37m  5 - Adjust Tax Rate
+[1;31m  6 - Set Trade Password
+[1;33m  7 - Set Beacon Message
+[1;37m  x - Exit to command mode
 
 Please Select (1 - 6)  ---} T Galactic Empire Text Message
 
@@ -2986,7 +2943,7 @@ ADMENU2D {There isn't that much tax revenue in the Planetary Bank, Sir!
 } T Galactic Empire Text Message
 
 
-ADMENU2E {[36m
+ADMENU2E {[1;36m
 Select the item to adjust
 ----------------------------
   men  = adjust men
@@ -3003,7 +2960,7 @@ Select the item to adjust
   min  = adjust mines
   gol  = adjust gold
   spy  = adjust spies
----------------------------- [37m
+---------------------------- [1;37m
 Select now --} T Galactic Empire Text Message
 
 
@@ -3019,8 +2976,8 @@ ADMEN2F3 {Sell %s to other ships? (y/n) ---} T Galactic Empire Text Message
 ADMEN2F4 {Reserve how many %s for stock piling ---} T Galactic Empire Text Message
 
 
-ADMEN2FA {[33mTotal percentage exceeds 100 percent. Percentage of effort
-toward %s adjusted to %d.[37m
+ADMEN2FA {[1;33mTotal percentage exceeds 100 percent. Percentage of effort
+toward %s adjusted to %d.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -3087,12 +3044,12 @@ ATTACKM0 {We don't have that many troops, Sir!
 } T Galactic Empire Text Message
 
 
-ATTACKM1 {[33mTransporting %s troops to the planet Sir![37m
+ATTACKM1 {[1;33mTransporting %s troops to the planet Sir![1;37m
 } T Galactic Empire Text Message
 
 
-ATTACKM2 {In the attack our troops killed[31m %s[37m, and suffered losses
-of[31m %s[37m, Sir!
+ATTACKM2 {In the attack our troops killed[1;31m %s[1;37m, and suffered losses
+of[1;31m %s[1;37m, Sir!
 } T Galactic Empire Text Message
 
 
@@ -3128,8 +3085,8 @@ ATTACKF1 {Launching %s fighters to the planet Sir!
 } T Galactic Empire Text Message
 
 
-ATTACKF2 {In the attack our fighters destroyed [31m %s[37m fighters,
-and we lost [31m %s[37m, Sir!
+ATTACKF2 {In the attack our fighters destroyed [1;31m %s[1;37m fighters,
+and we lost [1;31m %s[1;37m, Sir!
 } T Galactic Empire Text Message
 
 
@@ -3153,10 +3110,10 @@ ATTACKF9 {We have lost %s fighter(s) Sir!
 } T Galactic Empire Text Message
 
 
-ATTACK6 {***[36m
+ATTACK6 {***[1;36m
 
 
-There is a distress message from[31m %s[36m in Star System[31m %d %d[36m, Sir!
+There is a distress message from[1;31m %s[1;36m in Star System[1;31m %d %d[1;36m, Sir!
 They are under attack from Commander %s in The %s and 
 are requesting our immediate help!!
 } T Galactic Empire Text Message
@@ -3179,21 +3136,12 @@ ATTACK9 {The planetary forces continue to put up a valiant resistance Sir!
 } T Galactic Empire Text Message
 
 
-IHIT1 {[33mWe have been hit with a Ion Cannon Burst Sir, the shield
-deflected some of the blast![37m
+IHIT1 {[1;33mWe have been hit with a Ion Cannon Burst Sir, the shield
+deflected some of the blast![1;37m
 } T Galactic Empire Text Message
 
 
 IHIT2 {We have been hit hard by an Ion Cannon Burst from the surface Sir!
-} T Galactic Empire Text Message
-
-
-TOPTEN1 {Uh oh! You have slipped to the #%d position in the
-Top Ten Players list.
-} T Galactic Empire Text Message
-
-
-TOPTEN2 {Congratulations!! You are now #%d in the Top Ten Players list.
 } T Galactic Empire Text Message
 
 
@@ -3288,15 +3236,15 @@ REP01 {
 } T Galactic Empire Text Message
 
 
-REP02 {[36mNav Hyperspace (SS# %d %d)[37m
+REP02 {[1;36mNav Hyperspace (SS# %d %d)[1;37m
 } T Galactic Empire Text Message
 
 
-REP03 {[32mSpeed.................[37m.Warp %s
+REP03 {[1;32mSpeed.................[1;37m.Warp %s
 } T Galactic Empire Text Message
 
 
-REP04 {[33mHeading.................... %d[37m
+REP04 {[1;33mHeading.................... %d[1;37m
 } T Galactic Empire Text Message
 
 
@@ -3320,47 +3268,47 @@ REP09 {Neutron Flux............ %u
 } T Galactic Empire Text Message
 
 
-REP10 {Shields (Mark-%d)......[32m UP[37m
+REP10 {Shields (Mark-%d)......[1;32m UP[1;37m
 } T Galactic Empire Text Message
 
 
-REP11 {Shields (Mark-%d)......[31m DOWN[37m
+REP11 {Shields (Mark-%d)......[1;31m DOWN[1;37m
 } T Galactic Empire Text Message
 
 
-REP11B {Shield Bank Charge ....[33m %d[37m
+REP11B {Shield Bank Charge ....[1;33m %d[1;37m
 } T Galactic Empire Text Message
 
 
-REP12 {Cloak..................[32mON[37m
+REP12 {Cloak..................[1;32mON[1;37m
 } T Galactic Empire Text Message
 
 
-REP13 {Cloak..................[31m OFF[37m
+REP13 {Cloak..................[1;31m OFF[1;37m
 } T Galactic Empire Text Message
 
 
-REP14 {DCO reports............[31m %s[37m damage
+REP14 {DCO reports............[1;31m %s[1;37m damage
 } T Galactic Empire Text Message
 
 
-REP15 {[31m   Shields out[37m
+REP15 {[1;31m   Shields out[1;37m
 } T Galactic Empire Text Message
 
 
-REP16 {[31m   Helm damaged[37m
+REP16 {[1;31m   Helm damaged[1;37m
 } T Galactic Empire Text Message
 
 
-REP17 {[31m   Cloaking system out[37m
+REP17 {[1;31m   Cloaking system out[1;37m
 } T Galactic Empire Text Message
 
 
-REP18 {[31m   Tactical scanners damaged[37m
+REP18 {[1;31m   Tactical scanners damaged[1;37m
 } T Galactic Empire Text Message
 
 
-REP18A {[31m   Maintenance status - %d Centocks[37m
+REP18A {[1;31m   Maintenance status - %d Centocks[1;37m
 } T Galactic Empire Text Message
 
 
@@ -3392,15 +3340,15 @@ REP22B {Gold....... %s
 } T Galactic Empire Text Message
 
 
-REP23 {Phasers (Mark-%d) [32m <operative>[37m
+REP23 {Phasers (Mark-%d) [1;32m <operative>[1;37m
 } T Galactic Empire Text Message
 
 
-REP24 {Phasers (Mark-%d) [31m <inoperable>[37m
+REP24 {Phasers (Mark-%d) [1;31m <inoperable>[1;37m
 } T Galactic Empire Text Message
 
 
-REP24A {Comm: A:%u  B:%u  C:%u[37m
+REP24A {Comm: A:%u  B:%u  C:%u[1;37m
 } T Galactic Empire Text Message
 
 
@@ -3543,38 +3491,6 @@ SCAN15 {Very Good
 SCAN16 {Resources:} T Galactic Empire Text Message
 
 
-SCAN17 {Civilian Population...   %u
-} T Galactic Empire Text Message
-
-
-SCAN17A {Troops................   %u
-} T Galactic Empire Text Message
-
-
-SCAN18 {Missiles...............   %u
-} T Galactic Empire Text Message
-
-
-SCAN19 {Torpedoes..............   %u
-} T Galactic Empire Text Message
-
-
-SCAN20 {Ion Cannons...........   %u
-} T Galactic Empire Text Message
-
-
-SCAN21 {Fighters..............   %u
-} T Galactic Empire Text Message
-
-
-SCAN22 {Neutron Flux Pods......   %u
-} T Galactic Empire Text Message
-
-
-SCAN23 {Food Lots.............   %u
-} T Galactic Empire Text Message
-
-
 SCAN24 {   Range Scan Dist:%s (s:%d %d)
 } T Galactic Empire Text Message
 
@@ -3584,10 +3500,6 @@ SCAN25 {   Sector Scan mag:1x (s:%d %d)
 
 
 SCAN26 {   Hyperspace Scan  (s:%d %d)
-} T Galactic Empire Text Message
-
-
-SCAN27 {Sorry Sir! The scanners cannot show planet detail from hyperspace.
 } T Galactic Empire Text Message
 
 
@@ -3619,10 +3531,6 @@ SCAN34 {%s stockpile of food.
 } T Galactic Empire Text Message
 
 
-SCAN35 {Sorry Sir! The scanners cannot show ship detail from hyperspace.
-} T Galactic Empire Text Message
-
-
 SCAN36 {   Long Range Scan  (s:%d)
 } T Galactic Empire Text Message
 
@@ -3633,27 +3541,11 @@ SCANWRM { Object Class: Wormhole
 SCANWRM1 { Named: %s
 } T Galactic Empire Text Message
 
-PLUSDASH { [36m  +------------------------------+ [37m
+PLUSDASH { [1;36m  +------------------------------+ [1;37m
 } T Galactic Empire Text Message
 
 
-PLUSFULL { [36m  +------------------------------+ [37m Shp Distance Bearing Heading Speed
-} T Galactic Empire Text Message
-
-
-USER01 {USER-ID ...... OPTION SELECTED
-} T Galactic Empire Text Message
-
-
-USER02 {(line %02d)  ... (log-on)
-} T Galactic Empire Text Message
-
-
-USER03 {(line %02d)  ... (sign-up)
-} T Galactic Empire Text Message
-
-
-USER04 {%-11s... %s
+PLUSFULL { [1;36m  +------------------------------+ [1;37m Shp Distance Bearing Heading Speed
 } T Galactic Empire Text Message
 
 
@@ -3693,9 +3585,9 @@ MISSHRT {Sorry Sir! There is not that much energy in our neutron flux pile.
 } T Galactic Empire Text Message
 
 
-KILLGOT1 {***[33m
+KILLGOT1 {***[1;33m
 We have destroyed The %s. Our crew have collected any usable flotsam.
-We have retrieved[37m} T Galactic Empire Text Message
+We have retrieved[1;37m} T Galactic Empire Text Message
 
 
 KILLPNTS {
@@ -3722,16 +3614,16 @@ PHASER0 {We don't have a lousy Phaser system on this tub, SIR!!
 } T Galactic Empire Text Message
 
 
-HPFIRED {[33mHyper-Phaser fired at bearing[37m %d[33m, Sir![37m
+HPFIRED {[1;33mHyper-Phaser fired at bearing[1;37m %d[1;33m, Sir![1;37m
 } T Galactic Empire Text Message
 
 
-HPHITM {[36mOur Hyper-Phaser caused[31m %s[36m damage to Commander[31m %s's[36m ship![37m
+HPHITM {[1;36mOur Hyper-Phaser caused[1;31m %s[1;36m damage to Commander[1;31m %s's[1;36m ship![1;37m
 } T Galactic Empire Text Message
 
 
-HPHITU {***[31m
-Hyper-Phaser hit from Commander %s's ship, caused[37m %s[31m damage, Sir![37m
+HPHITU {***[1;31m
+Hyper-Phaser hit from Commander %s's ship, caused[1;37m %s[1;31m damage, Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -3739,13 +3631,13 @@ HNOFIRP {There is insufficient power in the Neutron Flux to fire, Sir!
 } T Galactic Empire Text Message
 
 
-HPWAIT {[35mThe Hyper-Phasers need a few more seconds to cool
-before firing again.[37m
+HPWAIT {[1;35mThe Hyper-Phasers need a few more seconds to cool
+before firing again.[1;37m
 } T Galactic Empire Text Message
 
 
-MOVE1 {***[36m
-Helm reports leaving Sector[31m %d %d[36m and entering Sector[31m %d %d[37m
+MOVE1 {***[1;36m
+Helm reports leaving Sector[1;31m %d %d[1;36m and entering Sector[1;31m %d %d[1;37m
 } T Galactic Empire Text Message
 
 
@@ -3754,27 +3646,27 @@ Scanners indicate The %s has left this sector.
 } T Galactic Empire Text Message
 
 
-MOVE3 {***[33m
-Scanners detect The %s has entered this sector.[37m
+MOVE3 {***[1;33m
+Scanners detect The %s has entered this sector.[1;37m
 } T Galactic Empire Text Message
 
 
-MOVE4 {***[31m
+MOVE4 {***[1;31m
 Neutron Flux levels are too low. Engines shut down!
-} T Galactic Empire Text Message
+[1;37m} T Galactic Empire Text Message
 
 
-ZAPHIM1 {*** Sssssssssss.... ZAPP!!!!![31m
+ZAPHIM1 {*** Sssssssssss.... ZAPP!!!!![1;31m
 
 You are instantly blinded by an intense beam from the Enforcer Planet.
 
-} T Galactic Empire Text Message
+[1;37m} T Galactic Empire Text Message
 
 
-ZAPHIM2 {***[33m
+ZAPHIM2 {***[1;33m
 Hailing message from the Enforcer Planet
 <Sector is a Neutral Zone, any hostilities will be dealt with severely!>
-[37m
+[1;37m
 } T Galactic Empire Text Message
 
 
@@ -3811,8 +3703,8 @@ MAINT6 {We don't have enough cash to pay for a maintenance team Sir!
 } T Galactic Empire Text Message
 
 
-MAINT7 {***[32m
-Repairs and general maintenance have been completed Sir![37m
+MAINT7 {***[1;32m
+Repairs and general maintenance have been completed Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -3871,8 +3763,8 @@ ZIPPER2 {Zipper Fired!
 } T Galactic Empire Text Message
 
 
-ZIPPER3 {***[36m
-Scanners detect The %s just launched a Zipper.[37m
+ZIPPER3 {***[1;36m
+Scanners detect The %s just launched a Zipper.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -3884,7 +3776,7 @@ NEW2 {Type HELP CLASS for a list of ship class types.
 } T Galactic Empire Text Message
 
 
-NEW3 {You are now the proud owner of a[32m %s.[37m
+NEW3 {You are now the proud owner of a[1;32m %s.[1;37m
 } T Galactic Empire Text Message
 
 
@@ -4147,9 +4039,9 @@ slaughtered in the war, the rest have joined the revolt.
 } T Galactic Empire Text Message
 
 
-CAPTDOC {***[31m
+CAPTDOC {***[1;31m
 Our intelligence team has captured a secret document, it reads...
-[37m
+[1;37m
 Planet Name         sector planet
 } T Galactic Empire Text Message
 
@@ -5942,7 +5834,7 @@ SPYM0 {We don't have any spy's Sir!
 } T Galactic Empire Text Message
 
 
-SPYM1 {[33mTransporting a spy to the planet Sir![37m
+SPYM1 {[1;33mTransporting a spy to the planet Sir![1;37m
 } T Galactic Empire Text Message
 
 
@@ -6010,7 +5902,7 @@ JETT2 {Sorry Sir! I didn't understand the command.
 } T Galactic Empire Text Message
 
 
-JETT3 {[33m%s %s[37m have been jettisoned, Sir!
+JETT3 {[1;33m%s %s[1;37m have been jettisoned, Sir!
 } T Galactic Empire Text Message
 
 
